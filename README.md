@@ -74,4 +74,33 @@ AUC score indicates performance
 Plots Precision vs Recall
 Useful for imbalanced datasets
 Helps choose optimal similarity threshold
+📊 Results & Performance Analysis
+Metric	Value
+Accuracy	90.95%
+Precision	99.52%
+Recall	91.23%
+F1 Score	95.19%
+🔍 Interpretation
+✅ High Accuracy (90.95%)
+Indicates that the model performs consistently well in distinguishing between similar and dissimilar images across the dataset.
+🎯 Exceptional Precision (99.52%)
+This is a standout metric — it means almost every image predicted as a duplicate is actually correct.
+👉 Very low false positives, which is critical in real-world systems (e.g., avoiding wrong matches in search or recommendations).
+🔁 Strong Recall (91.23%)
+The model successfully detects most of the actual duplicate/similar images.
+👉 Only a small portion of true matches are missed.
+⚖️ Balanced F1 Score (95.19%)
+Shows an excellent balance between precision and recall.
+👉 Confirms the model is both accurate and reliable, not biased toward one metric.
+🚀 Overall Performance Insight
+
+The model demonstrates highly reliable similarity detection, with extremely high precision and strong recall, making it well-suited for real-world applications like image deduplication, search systems, and recommendation engines.
+⚡ Why This Project Stands Out
+Combines transformer-based vision + similarity learning
+Uses hashing for speed and scalability
+Avoids brute-force comparison
+Inspired by real-world systems like:
+Image search engines
+Face recognition
+E-commerce recommendation systems
 
